@@ -1,3 +1,3 @@
-function confirm() {
-  document.write("Bang!");
+function hello() {
+  alert("Hello!")
 }

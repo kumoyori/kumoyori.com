@@ -1,4 +1,7 @@
-p {
-  color: red;
+h1, h2, h3 {
+  outline-width: 5px;
+  outline-style: solid;
+  outline-color: green;
+  background-color: blue;
   text-align: center;
 }
