@@ -5,3 +5,19 @@ h1, h2, h3 {
   background-color: blue;
   text-align: center;
 }
+
+p {
+  text-align: center;
+  color: green;
+}
+
+body {
+  background-color: black;
+}
+button {
+  outline-width: 3px;
+  outline-style: solid;
+  outline-color: green;
+  background-color: blue;
+  text-align: center;
+}

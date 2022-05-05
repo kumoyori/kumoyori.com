@@ -1,24 +1,27 @@
-<html>
+<html lang="en-US">
   <head>
     <link rel="stylesheet" href="style.css" />
-    <script type="text/javascript" src="javascript.js"></script>
   </head>
   <body>
     <main>
         <center>
-          <h1>Hello World</h1>
+          <h1 id="title">Titl</h1>
         </center>
     </main>
     <form>
       <center>
         <table border="1">
-          <tr>
-            <td><input type="button" value="Say Hello" onclick="hello();" /></td>
-            <td><input type="button" value="Say Something" onclick="something();" /></td>
-            <td><input type="button" value="Test" onclick="test();" /></td>
-          </tr>
+          <button type="button" onclick="home()">Home</button>
+          <button type="button" onclick="programs()">Programs</button>
         </table>
+        <div id="home">
+          <p>This is the home page</p>
+        </div>
+        <div id="programs" style="display: none;">
+          <p>Welcome to the programs page!</p>
+        </div>
       </center>
     </form>
   </body>
+  <script type="text/javascript" src="javascript.js"></script>
 </html>
