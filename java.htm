@@ -1,23 +1,27 @@
 <html lang="en-US">
-<head>
+  <head>
     <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-
+  </head>
+  <body>
     <main>
         <center>
-            <h1 id="title">ようこそ、ユーザーさん</h1>
+          <h1 id="title">Title</h1>
         </center>
     </main>
     <form>
-        <center>
-            <button type="button" onclick="homePanel()">Home</button>
-            <button type="button" onclick="programsPanel()">Programs</button>
-        </center>
+      <center>
+        <table border="1">
+          <button type="button" onclick="home()">Home</button>
+          <button type="button" onclick="programs()">Programs</button>
+        </table>
+        <div id="home">
+          <p>This is the home page</p>
+        </div>
+        <div id="programs" style="display: none;">
+          <p>Welcome to the programs page!</p>
+        </div>
+      </center>
     </form>
-    <div>
-        <center><iframe style="border-color: green; " id="panel" src="home.html" width="1250" height="650"></iframe></center>
-    </div>
-</body>
-<script type="text/javascript" src="javascript.js"></script>
+  </body>
+  <script type="text/javascript" src="javascript.js"></script>
 </html>
