@@ -1,23 +1,22 @@
-h1, h2, h3 {
-  outline-width: 5px;
-  outline-style: solid;
-  outline-color: green;
-  background-color: blue;
-  text-align: center;
+.header-inner {
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #005AFF;
+  align-items: center;
+  display: flex;
 }
 
-p {
-  text-align: center;
-  color: green;
+.title-logo {
+  background-color: #4DC4FF;
+  margin-right: auto;
+  font-size: 35px;
+  font-weight: bold;
 }
 
-body {
-  background-color: black;
-}
-button {
-  outline-width: 3px;
-  outline-style: solid;
-  outline-color: green;
-  background-color: blue;
+.gnav-list {
   text-align: center;
+  background-color: #4DC4FF;
+  display: flex;
+  font-weight: bold;
 }
